@@ -62,8 +62,8 @@
       "id": "dac41924-7542-4e1d-9635-dcc2c67df950",
       "text": "Contatar outros alunos",
       "type": "istar.Task",
-      "x": 725,
-      "y": 334,
+      "x": 645,
+      "y": 317,
       "customProperties": {
         "Description": ""
       },
@@ -86,8 +86,8 @@
       "id": "a597805b-7c89-4b35-be3b-5c9325f6e684",
       "text": "Tabela de grupos",
       "type": "istar.Resource",
-      "x": 573,
-      "y": 234,
+      "x": 518,
+      "y": 218,
       "customProperties": {
         "Description": ""
       },
@@ -98,8 +98,8 @@
       "id": "9c46ceb7-8564-4187-9a07-2608327467e0",
       "text": "Formar grupo",
       "type": "istar.Goal",
-      "x": 635,
-      "y": 285,
+      "x": 577,
+      "y": 272,
       "customProperties": {
         "Description": ""
       },
@@ -122,8 +122,8 @@
       "id": "88da4024-d259-4fe4-919a-e969c4fc4f56",
       "text": "Disponibilizar informações do projeto",
       "type": "istar.Task",
-      "x": 560,
-      "y": 25,
+      "x": 552,
+      "y": 53,
       "customProperties": {
         "Description": ""
       },
@@ -134,8 +134,8 @@
       "id": "92bfee83-d6f1-4e01-ba67-ef2f9606c93f",
       "text": "Monitorar grupos",
       "type": "istar.Task",
-      "x": 559,
-      "y": 89,
+      "x": 494,
+      "y": 101,
       "customProperties": {
         "Description": ""
       },
@@ -146,8 +146,32 @@
       "id": "5667037c-1fb3-49a5-b39a-e04095dbf6a0",
       "text": "Ver entregas",
       "type": "istar.Task",
-      "x": 510,
+      "x": 427,
       "y": 143,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "749f15f4-e5de-43fd-92e9-307d2a0d210f",
+      "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
+    },
+    {
+      "id": "436200e5-0ef9-4dca-9f9f-2ef5abee02df",
+      "text": "Passar na diciplina",
+      "type": "istar.Goal",
+      "x": 743,
+      "y": 368,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a2d31e58-1033-4e52-acfe-8140e4e6f462",
+      "target": "34ff3619-004e-4d5d-ad87-2dc4296fc821"
+    },
+    {
+      "id": "2834db72-688b-4909-a0fd-ca7494a19914",
+      "text": "Avaliar os alunos",
+      "type": "istar.Goal",
+      "x": 666,
+      "y": 6,
       "customProperties": {
         "Description": ""
       },
@@ -156,6 +180,30 @@
     }
   ],
   "links": [
+    {
+      "id": "6cab204c-a6ff-41df-a55d-01cc1fcb7748",
+      "type": "istar.DependencyLink",
+      "source": "749f15f4-e5de-43fd-92e9-307d2a0d210f",
+      "target": "2834db72-688b-4909-a0fd-ca7494a19914"
+    },
+    {
+      "id": "041ec1a3-cc74-4965-bbf0-782ed6a0ac12",
+      "type": "istar.DependencyLink",
+      "source": "2834db72-688b-4909-a0fd-ca7494a19914",
+      "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
+    },
+    {
+      "id": "dfec08f5-1011-42e0-8139-206fdc245aa9",
+      "type": "istar.DependencyLink",
+      "source": "436200e5-0ef9-4dca-9f9f-2ef5abee02df",
+      "target": "34ff3619-004e-4d5d-ad87-2dc4296fc821"
+    },
+    {
+      "id": "99be64f2-0e01-46d8-b40c-ffcfcb629633",
+      "type": "istar.DependencyLink",
+      "source": "a2d31e58-1033-4e52-acfe-8140e4e6f462",
+      "target": "436200e5-0ef9-4dca-9f9f-2ef5abee02df"
+    },
     {
       "id": "b92be239-038c-469b-90f7-f6269116a72f",
       "type": "istar.DependencyLink",
@@ -280,7 +328,7 @@
   },
   "tool": "pistar.2.1.0",
   "istar": "2.0",
-  "saveDate": "Wed, 16 Sep 2026 18:14:27 GMT",
+  "saveDate": "Wed, 16 Sep 2026 19:00:01 GMT",
   "diagram": {
     "width": 1000,
     "height": 753,
