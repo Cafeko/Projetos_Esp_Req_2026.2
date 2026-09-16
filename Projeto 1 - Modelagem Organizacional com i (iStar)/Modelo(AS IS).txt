@@ -1,6 +1,17 @@
 {
   "actors": [
     {
+      "id": "ce09754f-6311-40f9-9aeb-c07fdc52b32f",
+      "text": "WhatsApp/Discord",
+      "type": "istar.Agent",
+      "x": 383,
+      "y": 564,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
       "id": "9fb7811d-a4ac-4eb0-8a5f-d3aeb7b56c10",
       "text": "Professor",
       "type": "istar.Actor",
@@ -39,17 +50,6 @@
       "type": "istar.Agent",
       "x": 203,
       "y": 188,
-      "customProperties": {
-        "Description": ""
-      },
-      "nodes": []
-    },
-    {
-      "id": "e3768751-0647-4def-a91f-774e36824049",
-      "text": "WhatsApp/Discord",
-      "type": "istar.Actor",
-      "x": 383,
-      "y": 564,
       "customProperties": {
         "Description": ""
       },
@@ -116,7 +116,7 @@
         "Description": ""
       },
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
-      "target": "e3768751-0647-4def-a91f-774e36824049"
+      "target": "ce09754f-6311-40f9-9aeb-c07fdc52b32f"
     },
     {
       "id": "88da4024-d259-4fe4-919a-e969c4fc4f56",
@@ -157,97 +157,97 @@
   ],
   "links": [
     {
-      "id": "48769924-e764-4d10-9ba6-af3522b66000",
+      "id": "b92be239-038c-469b-90f7-f6269116a72f",
       "type": "istar.DependencyLink",
       "source": "5667037c-1fb3-49a5-b39a-e04095dbf6a0",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "d14691e4-502a-4e48-8ff4-c860ded59eaf",
+      "id": "9b0e8743-aa8c-4624-898d-3726739768fe",
       "type": "istar.DependencyLink",
       "source": "9fb7811d-a4ac-4eb0-8a5f-d3aeb7b56c10",
       "target": "5667037c-1fb3-49a5-b39a-e04095dbf6a0"
     },
     {
-      "id": "355bec05-5882-49c2-8d6d-9efc5916815f",
+      "id": "bea7576a-4b11-49b4-b632-17856bef2d4e",
       "type": "istar.DependencyLink",
       "source": "92bfee83-d6f1-4e01-ba67-ef2f9606c93f",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "fa638d19-877f-4f31-af0c-d3b24b88d5db",
+      "id": "1bad7aa9-1a73-43e9-9ba2-9dc9d4fb6083",
       "type": "istar.DependencyLink",
       "source": "9fb7811d-a4ac-4eb0-8a5f-d3aeb7b56c10",
       "target": "92bfee83-d6f1-4e01-ba67-ef2f9606c93f"
     },
     {
-      "id": "45885037-4ab4-468b-bf13-5fcb7ebbb045",
+      "id": "1fc0eb54-811a-4a08-b94f-924b8febcc0e",
       "type": "istar.DependencyLink",
       "source": "88da4024-d259-4fe4-919a-e969c4fc4f56",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "2167c5a3-459a-4a5c-b4d4-71dc3772c0e8",
+      "id": "435a134a-d6f1-4c6b-beb2-319262eba203",
       "type": "istar.DependencyLink",
       "source": "9fb7811d-a4ac-4eb0-8a5f-d3aeb7b56c10",
       "target": "88da4024-d259-4fe4-919a-e969c4fc4f56"
     },
     {
-      "id": "0b7508f7-06b5-4073-b9aa-6cc2fca813ad",
+      "id": "d51447ac-bcf5-4ed1-ba28-c911a17d0f07",
       "type": "istar.DependencyLink",
       "source": "bcea7e1b-b3e7-41d4-b9bc-43dbabd52c9f",
-      "target": "e3768751-0647-4def-a91f-774e36824049"
+      "target": "ce09754f-6311-40f9-9aeb-c07fdc52b32f"
     },
     {
-      "id": "d6b53a8c-a206-446e-942c-cec24a7f215c",
+      "id": "fc6b5fdd-3913-48bc-af68-37a89cfa13f4",
       "type": "istar.DependencyLink",
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
       "target": "bcea7e1b-b3e7-41d4-b9bc-43dbabd52c9f"
     },
     {
-      "id": "8d0b57a3-d365-4e82-93ef-6343693e535c",
+      "id": "0899f24b-4a6e-4ca4-8cfd-720c1ed5736e",
       "type": "istar.DependencyLink",
       "source": "9c46ceb7-8564-4187-9a07-2608327467e0",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "abd6f57b-28bf-4415-aac2-65dd4f3f2da0",
+      "id": "e2a16087-6919-47dd-a181-a6c8b475c139",
       "type": "istar.DependencyLink",
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
       "target": "9c46ceb7-8564-4187-9a07-2608327467e0"
     },
     {
-      "id": "702bd3ab-9e40-44ee-9014-90ce880125ac",
+      "id": "bd8466ee-131c-47aa-9abf-bdacf2edc70b",
       "type": "istar.DependencyLink",
       "source": "a597805b-7c89-4b35-be3b-5c9325f6e684",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "dfe89b7d-b7f2-45ff-9797-cd543a871bf0",
+      "id": "d0ef2a71-d175-4ca9-82c7-c35ea5689bd6",
       "type": "istar.DependencyLink",
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
       "target": "a597805b-7c89-4b35-be3b-5c9325f6e684"
     },
     {
-      "id": "e25c7f53-27b6-466b-bbf5-f19ce6deb1df",
+      "id": "f40aec2d-d9e1-43ee-af9e-6bd9fdcef8b0",
       "type": "istar.DependencyLink",
       "source": "3412bf34-e4b1-4c6a-b10d-0e4cf053634c",
       "target": "b1700cd7-c7f1-42ab-8b81-1b06e29e0cf7"
     },
     {
-      "id": "a1249bb3-08aa-452a-ac80-96f11390094c",
+      "id": "649fd255-397d-41e6-8dce-d8fd9bc3bd34",
       "type": "istar.DependencyLink",
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
       "target": "3412bf34-e4b1-4c6a-b10d-0e4cf053634c"
     },
     {
-      "id": "ab46a7b4-b369-4e32-9283-df6aa77e72ee",
+      "id": "aff092ce-ada1-4151-af87-73c39b33cc4b",
       "type": "istar.DependencyLink",
       "source": "dac41924-7542-4e1d-9635-dcc2c67df950",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     },
     {
-      "id": "9f178c09-ddb6-4986-b02a-b2780efbe3f4",
+      "id": "951bec31-3d1f-4812-a3d9-6b32a36e701c",
       "type": "istar.DependencyLink",
       "source": "a501f97f-2a98-4c6a-9fcb-42d8c7954160",
       "target": "dac41924-7542-4e1d-9635-dcc2c67df950"
@@ -262,6 +262,9 @@
       "width": 155.7265625,
       "height": 36.70703125
     },
+    "ce09754f-6311-40f9-9aeb-c07fdc52b32f": {
+      "collapsed": true
+    },
     "9fb7811d-a4ac-4eb0-8a5f-d3aeb7b56c10": {
       "collapsed": true
     },
@@ -273,14 +276,11 @@
     },
     "b1700cd7-c7f1-42ab-8b81-1b06e29e0cf7": {
       "collapsed": true
-    },
-    "e3768751-0647-4def-a91f-774e36824049": {
-      "collapsed": true
     }
   },
   "tool": "pistar.2.1.0",
   "istar": "2.0",
-  "saveDate": "Wed, 16 Sep 2026 14:12:38 GMT",
+  "saveDate": "Wed, 16 Sep 2026 18:06:20 GMT",
   "diagram": {
     "width": 1000,
     "height": 753,
