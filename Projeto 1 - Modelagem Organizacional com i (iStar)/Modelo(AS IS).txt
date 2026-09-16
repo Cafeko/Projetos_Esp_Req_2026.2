@@ -4,8 +4,8 @@
       "id": "34ff3619-004e-4d5d-ad87-2dc4296fc821",
       "text": "Alunos",
       "type": "istar.Role",
-      "x": 389,
-      "y": 330,
+      "x": 384,
+      "y": 469,
       "customProperties": {
         "Description": ""
       },
@@ -15,8 +15,8 @@
       "id": "749f15f4-e5de-43fd-92e9-307d2a0d210f",
       "text": "Professor",
       "type": "istar.Role",
-      "x": 412,
-      "y": 29,
+      "x": 280,
+      "y": 60,
       "customProperties": {
         "Description": ""
       },
@@ -26,8 +26,8 @@
       "id": "ce09754f-6311-40f9-9aeb-c07fdc52b32f",
       "text": "WhatsApp/Discord",
       "type": "istar.Agent",
-      "x": 383,
-      "y": 564,
+      "x": 378,
+      "y": 743,
       "customProperties": {
         "Description": ""
       },
@@ -37,8 +37,8 @@
       "id": "a2d31e58-1033-4e52-acfe-8140e4e6f462",
       "text": "Classroom",
       "type": "istar.Agent",
-      "x": 771,
-      "y": 127,
+      "x": 846,
+      "y": 230,
       "customProperties": {
         "Description": ""
       },
@@ -48,8 +48,8 @@
       "id": "b1700cd7-c7f1-42ab-8b81-1b06e29e0cf7",
       "text": "E-mail",
       "type": "istar.Agent",
-      "x": 198,
-      "y": 188,
+      "x": 58,
+      "y": 252,
       "customProperties": {
         "Description": ""
       },
@@ -62,8 +62,8 @@
       "id": "dac41924-7542-4e1d-9635-dcc2c67df950",
       "text": "Contatar outros alunos",
       "type": "istar.Task",
-      "x": 645,
-      "y": 317,
+      "x": 620,
+      "y": 413,
       "customProperties": {
         "Description": ""
       },
@@ -74,8 +74,8 @@
       "id": "3412bf34-e4b1-4c6a-b10d-0e4cf053634c",
       "text": "Contatar outros alunos",
       "type": "istar.Task",
-      "x": 171,
-      "y": 329,
+      "x": 24,
+      "y": 462,
       "customProperties": {
         "Description": ""
       },
@@ -86,8 +86,8 @@
       "id": "a597805b-7c89-4b35-be3b-5c9325f6e684",
       "text": "Tabela de grupos",
       "type": "istar.Resource",
-      "x": 518,
-      "y": 218,
+      "x": 471,
+      "y": 310,
       "customProperties": {
         "Description": ""
       },
@@ -98,8 +98,8 @@
       "id": "9c46ceb7-8564-4187-9a07-2608327467e0",
       "text": "Formar grupo",
       "type": "istar.Goal",
-      "x": 577,
-      "y": 272,
+      "x": 539,
+      "y": 369,
       "customProperties": {
         "Description": ""
       },
@@ -110,8 +110,8 @@
       "id": "bcea7e1b-b3e7-41d4-b9bc-43dbabd52c9f",
       "text": "Trabalhar juntos no projeto",
       "type": "istar.Goal",
-      "x": 357,
-      "y": 442,
+      "x": 350,
+      "y": 598,
       "customProperties": {
         "Description": ""
       },
@@ -122,8 +122,8 @@
       "id": "88da4024-d259-4fe4-919a-e969c4fc4f56",
       "text": "Disponibilizar informações do projeto",
       "type": "istar.Task",
-      "x": 552,
-      "y": 53,
+      "x": 487,
+      "y": 128,
       "customProperties": {
         "Description": ""
       },
@@ -134,8 +134,8 @@
       "id": "92bfee83-d6f1-4e01-ba67-ef2f9606c93f",
       "text": "Monitorar grupos",
       "type": "istar.Task",
-      "x": 494,
-      "y": 101,
+      "x": 465,
+      "y": 184,
       "customProperties": {
         "Description": ""
       },
@@ -146,8 +146,8 @@
       "id": "5667037c-1fb3-49a5-b39a-e04095dbf6a0",
       "text": "Ver entregas",
       "type": "istar.Task",
-      "x": 427,
-      "y": 143,
+      "x": 393,
+      "y": 235,
       "customProperties": {
         "Description": ""
       },
@@ -158,8 +158,8 @@
       "id": "436200e5-0ef9-4dca-9f9f-2ef5abee02df",
       "text": "Passar na diciplina",
       "type": "istar.Goal",
-      "x": 743,
-      "y": 368,
+      "x": 711,
+      "y": 579,
       "customProperties": {
         "Description": ""
       },
@@ -170,16 +170,64 @@
       "id": "2834db72-688b-4909-a0fd-ca7494a19914",
       "text": "Avaliar os alunos",
       "type": "istar.Goal",
-      "x": 666,
-      "y": 6,
+      "x": 599,
+      "y": 83,
       "customProperties": {
         "Description": ""
       },
       "source": "749f15f4-e5de-43fd-92e9-307d2a0d210f",
       "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
+    },
+    {
+      "id": "72361118-30b1-4bc7-8b38-8eed3666f85b",
+      "text": "Formar grupo rapido",
+      "type": "istar.Quality",
+      "x": 167,
+      "y": 343,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "34ff3619-004e-4d5d-ad87-2dc4296fc821",
+      "target": "b1700cd7-c7f1-42ab-8b81-1b06e29e0cf7"
+    },
+    {
+      "id": "089c7dbd-2fc1-4e12-83a6-476b27c459c8",
+      "text": "Formar grupo rapido",
+      "type": "istar.Quality",
+      "x": 663,
+      "y": 491,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "34ff3619-004e-4d5d-ad87-2dc4296fc821",
+      "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
     }
   ],
   "links": [
+    {
+      "id": "8e51303a-4dca-4ea3-b31e-a87ab29d57a4",
+      "type": "istar.DependencyLink",
+      "source": "089c7dbd-2fc1-4e12-83a6-476b27c459c8",
+      "target": "a2d31e58-1033-4e52-acfe-8140e4e6f462"
+    },
+    {
+      "id": "95bc8e10-94ee-4d56-b378-23931720d5da",
+      "type": "istar.DependencyLink",
+      "source": "34ff3619-004e-4d5d-ad87-2dc4296fc821",
+      "target": "089c7dbd-2fc1-4e12-83a6-476b27c459c8"
+    },
+    {
+      "id": "93d527bc-2bee-480e-b866-660f86e3d923",
+      "type": "istar.DependencyLink",
+      "source": "72361118-30b1-4bc7-8b38-8eed3666f85b",
+      "target": "b1700cd7-c7f1-42ab-8b81-1b06e29e0cf7"
+    },
+    {
+      "id": "1adca6bc-0028-46b2-abc4-2098e1f460e0",
+      "type": "istar.DependencyLink",
+      "source": "34ff3619-004e-4d5d-ad87-2dc4296fc821",
+      "target": "72361118-30b1-4bc7-8b38-8eed3666f85b"
+    },
     {
       "id": "6cab204c-a6ff-41df-a55d-01cc1fcb7748",
       "type": "istar.DependencyLink",
@@ -310,6 +358,22 @@
       "width": 155.7265625,
       "height": 36.70703125
     },
+    "089c7dbd-2fc1-4e12-83a6-476b27c459c8": {
+      "width": 88.75299072265625,
+      "height": 47.71197509765625
+    },
+    "fc6b5fdd-3913-48bc-af68-37a89cfa13f4": {
+      "vertices": [
+        {
+          "x": 400,
+          "y": 544
+        },
+        {
+          "x": 400,
+          "y": 570
+        }
+      ]
+    },
     "34ff3619-004e-4d5d-ad87-2dc4296fc821": {
       "collapsed": true
     },
@@ -328,10 +392,10 @@
   },
   "tool": "pistar.2.1.0",
   "istar": "2.0",
-  "saveDate": "Wed, 16 Sep 2026 19:00:01 GMT",
+  "saveDate": "Wed, 16 Sep 2026 19:14:08 GMT",
   "diagram": {
     "width": 1000,
-    "height": 753,
+    "height": 874,
     "customProperties": {
       "Description": ""
     }
