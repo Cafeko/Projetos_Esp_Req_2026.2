@@ -1,0 +1,459 @@
+{
+  "actors": [
+    {
+      "id": "agent-sistema-matchmaking",
+      "text": "Sistema CInAgrupa",
+      "type": "istar.Agent",
+      "x": 626,
+      "y": 275,
+      "customProperties": {
+        "Description": "Plataforma integrada de formação de turmas, ajustes e perks de chat"
+      },
+      "nodes": [
+        {
+          "id": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e",
+          "text": "Centralizar formação e comunicação de grupos acadêmicos",
+          "type": "istar.Goal",
+          "x": 1104,
+          "y": 275,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16",
+          "text": "Prover gestão de projetos e turmas",
+          "type": "istar.Task",
+          "x": 1293,
+          "y": 407,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+          "text": "Cadastrar diretrizes e limites de membros",
+          "type": "istar.Task",
+          "x": 1410,
+          "y": 554,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c8381b71-4634-4266-a7ba-2af4855bef49",
+          "text": "Validar tamanho máximo/mínimo dos grupos",
+          "type": "istar.Task",
+          "x": 1204,
+          "y": 561,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7f3368d4-3762-4baa-ab97-c67ada7fa421",
+          "text": "Prover mecanismo de formação de grupos",
+          "type": "istar.Task",
+          "x": 1006,
+          "y": 641,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "985fbee6-97a6-4308-9272-1360ce100f41",
+          "text": "Criar novo grupo de trabalho",
+          "type": "istar.Task",
+          "x": 856,
+          "y": 790,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "717f636a-3c68-471d-bd11-cbf594a20055",
+          "text": "Processar solicitação de entrada no grupo",
+          "type": "istar.Task",
+          "x": 1066,
+          "y": 786,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d90ba2ee-526e-4313-a55c-631696612b6f",
+          "text": "Exibir lista de vagas e grupos disponíveis",
+          "type": "istar.Task",
+          "x": 719,
+          "y": 735,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+          "text": "Banco de dados de grupos e vagas",
+          "type": "istar.Resource",
+          "x": 741,
+          "y": 624,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "73e7b7b8-2d22-46af-a476-64d110168525",
+          "text": "Prover ambiente de comunicação e acompanhamento",
+          "type": "istar.Task",
+          "x": 832,
+          "y": 340,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "07e76697-0d73-4e54-9b53-b95636885911",
+          "text": "Manter chat exclusivo por grupo",
+          "type": "istar.Task",
+          "x": 626,
+          "y": 386,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b0da73b7-17f2-4cfb-a436-006c3609edc4",
+          "text": "Disponibilizar dashboard de status da turma",
+          "type": "istar.Task",
+          "x": 667,
+          "y": 487,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63b47d71-62e8-4d15-bf09-85347eed110d",
+          "text": "Permitir moderação de mensagens",
+          "type": "istar.Task",
+          "x": 970,
+          "y": 444,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+          "text": "Informações sobre grupos atualizadas em tempo real",
+          "type": "istar.Quality",
+          "x": 974,
+          "y": 902,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a11746b4-3fb3-496d-9333-3daf4aeffe49",
+          "text": "Sem erros",
+          "type": "istar.Quality",
+          "x": 1324,
+          "y": 667,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "09bf0115-7993-4e2e-a1f2-606ea927acfe",
+          "text": "Privasidade dos alunos",
+          "type": "istar.Quality",
+          "x": 906,
+          "y": 559,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9b878d3d-56ab-4009-af38-561fe51499f2",
+          "text": "Informar avaliação dos alunos",
+          "type": "istar.Task",
+          "x": 1226,
+          "y": 792,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bbcf1f2e-d508-4e70-be9e-bd233376545b",
+          "text": "Banco de dados de avaliações dos alunos",
+          "type": "istar.Resource",
+          "x": 1333,
+          "y": 899,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
+      "text": "Alunos",
+      "type": "istar.Role",
+      "x": 130,
+      "y": 596,
+      "customProperties": {
+        "Description": "Estudantes matriculados nas disciplinas buscando parceiros e integração"
+      },
+      "nodes": []
+    },
+    {
+      "id": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
+      "text": "Professor",
+      "type": "istar.Role",
+      "x": 1375,
+      "y": 85,
+      "customProperties": {
+        "Description": "Especialização do Tutor com autoridade deliberativa e diretrizes da disciplina"
+      },
+      "nodes": []
+    },
+    {
+      "id": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
+      "text": "Monitor",
+      "type": "istar.Role",
+      "x": 334,
+      "y": 181,
+      "customProperties": {
+        "Description": "Especialização do Tutor com foco em suporte operacional e dúvidas"
+      },
+      "nodes": []
+    },
+    {
+      "id": "role-tutor-academico",
+      "text": "Gestor de projetos da diciplina",
+      "type": "istar.Role",
+      "x": 695,
+      "y": 47,
+      "customProperties": {
+        "Description": "Papel com atribuições pedagógicas compartilhadas entre Docentes e Monitores"
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "2d66d5ec-2cfc-4079-9c2b-748f356f68f4",
+      "type": "istar.IsALink",
+      "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
+      "target": "role-tutor-academico"
+    },
+    {
+      "id": "7fabb83f-a308-4706-92d1-e87d03914ecd",
+      "type": "istar.IsALink",
+      "source": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
+      "target": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272"
+    },
+    {
+      "id": "3596da6e-5e50-4600-a001-822a63110c64",
+      "type": "istar.ParticipatesInLink",
+      "source": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
+      "target": "role-tutor-academico"
+    },
+    {
+      "id": "07f9deee-ff1f-41ac-8e97-5e00138af82b",
+      "type": "istar.AndRefinementLink",
+      "source": "c8381b71-4634-4266-a7ba-2af4855bef49",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "ff833b19-c7b3-44ba-9208-15103a92adf2",
+      "type": "istar.AndRefinementLink",
+      "source": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "aba8d834-b548-4d1a-92d0-df37053f0655",
+      "type": "istar.AndRefinementLink",
+      "source": "7f3368d4-3762-4baa-ab97-c67ada7fa421",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "9aa61e94-b068-4e0d-93a2-1590bfeb82c2",
+      "type": "istar.AndRefinementLink",
+      "source": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "c54972b0-a177-4067-8e06-5449ccaa1d6a",
+      "type": "istar.AndRefinementLink",
+      "source": "985fbee6-97a6-4308-9272-1360ce100f41",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "5c427af0-28b5-4661-b4c7-a4a8d4f8e9e4",
+      "type": "istar.AndRefinementLink",
+      "source": "717f636a-3c68-471d-bd11-cbf594a20055",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "16e64fa5-84b4-4048-8fb9-569f9cb9adbb",
+      "type": "istar.AndRefinementLink",
+      "source": "d90ba2ee-526e-4313-a55c-631696612b6f",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "bc6b8701-8129-48a5-9c9f-87b934cc96ee",
+      "type": "istar.NeededByLink",
+      "source": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "76d12194-3ad9-42cc-a8f0-e9d1671f4a55",
+      "type": "istar.AndRefinementLink",
+      "source": "73e7b7b8-2d22-46af-a476-64d110168525",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "a58398d5-9cc2-4813-9799-f6c16f674730",
+      "type": "istar.AndRefinementLink",
+      "source": "07e76697-0d73-4e54-9b53-b95636885911",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "81624fba-5f23-43a8-831f-da7c6a3a658b",
+      "type": "istar.AndRefinementLink",
+      "source": "b0da73b7-17f2-4cfb-a436-006c3609edc4",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "ee687626-18a4-4764-9a24-ce77e7482fd0",
+      "type": "istar.NeededByLink",
+      "source": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+      "target": "b0da73b7-17f2-4cfb-a436-006c3609edc4"
+    },
+    {
+      "id": "6d18e8ce-356b-441f-9610-0631f95e0db7",
+      "type": "istar.AndRefinementLink",
+      "source": "63b47d71-62e8-4d15-bf09-85347eed110d",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "03cd5e06-ed51-4850-8720-d026738d5263",
+      "type": "istar.ContributionLink",
+      "source": "985fbee6-97a6-4308-9272-1360ce100f41",
+      "target": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+      "label": "make"
+    },
+    {
+      "id": "644b3203-0edb-411b-b7f3-7404e35fdadf",
+      "type": "istar.ContributionLink",
+      "source": "717f636a-3c68-471d-bd11-cbf594a20055",
+      "target": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+      "label": "make"
+    },
+    {
+      "id": "9ebb6c48-aab6-445f-8a8d-bdf8e20f4b18",
+      "type": "istar.QualificationLink",
+      "source": "a11746b4-3fb3-496d-9333-3daf4aeffe49",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "ccc2b96c-7ed1-4c22-b60a-52a91a747a30",
+      "type": "istar.ContributionLink",
+      "source": "63b47d71-62e8-4d15-bf09-85347eed110d",
+      "target": "09bf0115-7993-4e2e-a1f2-606ea927acfe",
+      "label": "hurt"
+    },
+    {
+      "id": "f516850a-6a48-4b6e-9792-ef06a5225b94",
+      "type": "istar.AndRefinementLink",
+      "source": "9b878d3d-56ab-4009-af38-561fe51499f2",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "f99f4e40-645e-48d5-bb44-4ec9061508bd",
+      "type": "istar.NeededByLink",
+      "source": "bbcf1f2e-d508-4e70-be9e-bd233376545b",
+      "target": "9b878d3d-56ab-4009-af38-561fe51499f2"
+    }
+  ],
+  "display": {
+    "0c51daa5-eb0f-40e3-8119-45762bd1cd1e": {
+      "width": 170.671875,
+      "height": 73.890625
+    },
+    "bcf5e463-c882-4a89-a6cc-dd6dffed9f16": {
+      "width": 134.671875,
+      "height": 71.890625
+    },
+    "6df101ed-ce9d-4fbd-bad9-3da232a946e4": {
+      "width": 166.671875,
+      "height": 71.890625
+    },
+    "c8381b71-4634-4266-a7ba-2af4855bef49": {
+      "width": 135.671875,
+      "height": 66.890625
+    },
+    "7f3368d4-3762-4baa-ab97-c67ada7fa421": {
+      "width": 161.671875,
+      "height": 64.890625
+    },
+    "985fbee6-97a6-4308-9272-1360ce100f41": {
+      "width": 134.671875,
+      "height": 47.890625
+    },
+    "717f636a-3c68-471d-bd11-cbf594a20055": {
+      "width": 132.671875,
+      "height": 50.890625
+    },
+    "d90ba2ee-526e-4313-a55c-631696612b6f": {
+      "width": 139.671875,
+      "height": 47.890625
+    },
+    "442cbf59-aa25-4bb6-9be0-c696a10266e3": {
+      "width": 123.671875,
+      "height": 58.890625
+    },
+    "73e7b7b8-2d22-46af-a476-64d110168525": {
+      "width": 154.671875,
+      "height": 66.890625
+    },
+    "07e76697-0d73-4e54-9b53-b95636885911": {
+      "width": 132.171875,
+      "height": 52.890625
+    },
+    "b0da73b7-17f2-4cfb-a436-006c3609edc4": {
+      "width": 145.171875,
+      "height": 59.890625
+    },
+    "63b47d71-62e8-4d15-bf09-85347eed110d": {
+      "width": 141.671875,
+      "height": 58.890625
+    },
+    "49a8e5c4-382e-4e32-86f2-c4f8e16370a5": {
+      "width": 145.71575927734375,
+      "height": 73.8980712890625
+    },
+    "a11746b4-3fb3-496d-9333-3daf4aeffe49": {
+      "width": 117.70703125,
+      "height": 78.39874267578125
+    },
+    "9b878d3d-56ab-4009-af38-561fe51499f2": {
+      "width": 128.671875,
+      "height": 55.890625
+    },
+    "bbcf1f2e-d508-4e70-be9e-bd233376545b": {
+      "width": 140.671875,
+      "height": 55.890625
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 30 Sep 2026 14:31:12 GMT",
+  "diagram": {
+    "width": 2014,
+    "height": 1467,
+    "customProperties": {
+      "Description": "Modelo TO-BE com fluxo de ajuste de integrantes delegado ao Tutor Acadêmico"
+    }
+  }
+}
