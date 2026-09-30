@@ -4,48 +4,48 @@
       "id": "role-tutor-academico",
       "text": "Gestor de projetos da diciplina",
       "type": "istar.Role",
-      "x": 695,
-      "y": 47,
+      "x": 732,
+      "y": 40,
       "customProperties": {
         "Description": "Papel com atribuições pedagógicas compartilhadas entre Docentes e Monitores"
       },
       "nodes": [
         {
-          "id": "goal-tutor-acompanhar",
-          "text": "Acompanhar formação e composição dos grupos",
+          "id": "6a4019ab-ec0d-43da-9b16-a6b4f33b8eb5",
+          "text": "Acompanhar adesão dos alunos",
+          "type": "istar.Task",
+          "x": 921,
+          "y": 203,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3ee40e6a-76dc-4bc0-be72-22e9c7a5a4d6",
+          "text": "Garantir formação completa de equipes nos projetos disciplina",
           "type": "istar.Goal",
-          "x": 795,
-          "y": 57,
+          "x": 885,
+          "y": 40,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-tutor-avaliar-ajustes",
-          "text": "Avaliar e aprovar solicitações de ajustes de integrantes",
+          "id": "ad5c27ef-f657-4509-962c-13a2a6fe347d",
+          "text": "Realizar gestão de integrantes caso necessario",
           "type": "istar.Task",
-          "x": 907,
-          "y": 198,
+          "x": 1102,
+          "y": 175,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "quality-tutor-transparencia",
-          "text": "Transparência no status das equipes",
-          "type": "istar.Quality",
-          "x": 989,
-          "y": 54,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "task-tutor-revisar-status",
-          "text": "Monitorar status de ocupação das equipes",
+          "id": "c29004a2-7133-4cfd-b9e9-b116f25a807f",
+          "text": "Mediar conflitos do grupo",
           "type": "istar.Task",
-          "x": 740,
-          "y": 222,
+          "x": 748,
+          "y": 164,
           "customProperties": {
             "Description": ""
           }
@@ -56,38 +56,38 @@
       "id": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
       "text": "Monitor",
       "type": "istar.Role",
-      "x": 334,
-      "y": 181,
+      "x": 353,
+      "y": 216,
       "customProperties": {
         "Description": "Especialização do Tutor com foco em suporte operacional e dúvidas"
       },
       "nodes": [
         {
-          "id": "794a6f47-127a-4e12-8fb2-b4718d2d259f",
-          "text": "Auxiliar estudantes na busca e integração de equipes",
+          "id": "ee6f46e4-af1f-4979-b7f5-509cf98c2bd4",
+          "text": "Auxiliar professor nos projetos",
           "type": "istar.Goal",
-          "x": 454,
-          "y": 201,
+          "x": 431,
+          "y": 234,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-monitor-tirar-duvidas",
-          "text": "Tirar dúvidas sobre afinidades e formação",
+          "id": "855100c9-de44-4c54-8a43-13f37b404156",
+          "text": "Orientar alunos",
           "type": "istar.Task",
-          "x": 466,
-          "y": 382,
+          "x": 369,
+          "y": 312,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "quality-monitor-acessibilidade",
-          "text": "Atendimento rápido aos alunos",
-          "type": "istar.Quality",
-          "x": 334,
-          "y": 281,
+          "id": "88968c77-f635-46c8-b794-0332aac69e08",
+          "text": "Moderar chats de mensagem",
+          "type": "istar.Task",
+          "x": 523,
+          "y": 309,
           "customProperties": {
             "Description": ""
           }
@@ -98,48 +98,48 @@
       "id": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
       "text": "Professor",
       "type": "istar.Role",
-      "x": 1375,
-      "y": 85,
+      "x": 1414,
+      "y": 100,
       "customProperties": {
         "Description": "Especialização do Tutor com autoridade deliberativa e diretrizes da disciplina"
       },
       "nodes": [
         {
-          "id": "a1bbc1fe-0c63-4b12-8365-8d662065baa3",
-          "text": "Garantir formação equilibrada e conformidade das equipes",
+          "id": "3b503e83-c48d-43f0-b322-e78003a31a98",
+          "text": "Estabelecer regras de formação de grupos",
           "type": "istar.Goal",
-          "x": 1492,
-          "y": 94,
+          "x": 1495,
+          "y": 111,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "89c29168-e811-4222-8570-cd9c3fd216ca",
-          "text": "Configurar critérios de matching",
+          "id": "3a2482e1-2e63-4596-a784-13576c72d335",
+          "text": "Diretrizes e limitesde membros",
+          "type": "istar.Resource",
+          "x": 1423,
+          "y": 290,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e83398f8-d9ce-42f1-9233-3ed79cd0627b",
+          "text": "Definir diretrizes do projeto",
           "type": "istar.Task",
-          "x": 1409,
-          "y": 181,
+          "x": 1427,
+          "y": 198,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "d39c86e3-e2fa-4eb0-93a9-438071d6623f",
-          "text": "Baixo esforço de gestão manual",
-          "type": "istar.Quality",
-          "x": 1596,
-          "y": 276,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "561b7dac-5935-4ef8-9877-fe477d95045e",
-          "text": "Grupos balanceados em competências e escopo",
-          "type": "istar.Quality",
-          "x": 1385,
-          "y": 285,
+          "id": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+          "text": "Cadastrar projeto",
+          "type": "istar.Task",
+          "x": 1605,
+          "y": 212,
           "customProperties": {
             "Description": ""
           }
@@ -150,88 +150,68 @@
       "id": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
       "text": "Alunos",
       "type": "istar.Role",
-      "x": 169,
-      "y": 636,
+      "x": 63,
+      "y": 650,
       "customProperties": {
         "Description": "Estudantes matriculados nas disciplinas buscando parceiros e integração"
       },
       "nodes": [
         {
-          "id": "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6",
-          "text": "Formar grupo compatível",
+          "id": "05a32fa6-5d02-41a1-841e-307b6ecc973b",
+          "text": "Fazer trabalho academico em grupo",
           "type": "istar.Goal",
-          "x": 581,
-          "y": 671,
+          "x": 258,
+          "y": 652,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-student-cadastrar-perfil",
-          "text": "Cadastrar perfil de interesses, matérias comuns e afinidades",
+          "id": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+          "text": "Formar grupo para trabalho",
           "type": "istar.Task",
-          "x": 670,
+          "x": 106,
+          "y": 875,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2f3ed992-7124-49f2-88e5-7b5f937daf6e",
+          "text": "Comunicação",
+          "type": "istar.Task",
+          "x": 440,
+          "y": 796,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4c5a58a7-eb5d-4c3d-b4f8-eb7669eadc4c",
+          "text": "Dividir trabalho e cooperar",
+          "type": "istar.Quality",
+          "x": 555,
+          "y": 1032,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "300bf5e0-95ed-474c-8d4f-9e8273df0d73",
+          "text": "Comunicação com integrantes do grupo",
+          "type": "istar.Task",
+          "x": 538,
           "y": 888,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-student-interagir-pares",
-          "text": "Descobrir e interagir com colegas de turma ou curso",
+          "id": "ce56c788-52db-4767-8dca-966c00504965",
+          "text": "Comunicação com professores e monitores",
           "type": "istar.Task",
-          "x": 307,
-          "y": 672,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "task-student-confirmar-grupo",
-          "text": "Consolidar time com ajuda do sistema",
-          "type": "istar.Task",
-          "x": 388,
-          "y": 885,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "task-student-solicitar-ajuste",
-          "text": "Solicitar ajuste manual na composição de integrantes",
-          "type": "istar.Task",
-          "x": 526,
-          "y": 1047,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "a4c76df2-e34c-4d4e-8226-cec39d0048e2",
-          "text": "Agilidade na formação",
-          "type": "istar.Quality",
-          "x": 187,
-          "y": 888,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "abdb46f6-21e9-4281-a25a-aef5000888a4",
-          "text": "Flexibilidade para ajustes no time",
-          "type": "istar.Quality",
-          "x": 223,
-          "y": 1037,
-          "customProperties": {
-            "Description": ""
-          }
-        },
-        {
-          "id": "2a7bd0a2-90fa-4c69-9165-89d53659df83",
-          "text": "Cooperação harmoniosa no time",
-          "type": "istar.Quality",
-          "x": 192,
-          "y": 775,
+          "x": 322,
+          "y": 905,
           "customProperties": {
             "Description": ""
           }
@@ -242,88 +222,218 @@
       "id": "agent-sistema-matchmaking",
       "text": "Sistema CInAgrupa",
       "type": "istar.Agent",
-      "x": 1389,
-      "y": 719,
+      "x": 830,
+      "y": 537,
       "customProperties": {
         "Description": "Plataforma integrada de formação de turmas, ajustes e perks de chat"
       },
       "nodes": [
         {
-          "id": "goal-sys-orquestrar",
-          "text": "Otimizar formação de grupos e integração entre turmas",
+          "id": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e",
+          "text": "Centralizar formação e comunicação de grupos acadêmicos",
           "type": "istar.Goal",
-          "x": 1569,
-          "y": 731,
+          "x": 1317,
+          "y": 537,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-sys-processar-match",
-          "text": "Executar pareamento automatizado de turmas",
+          "id": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16",
+          "text": "Prover gestão de projetos e turmas",
           "type": "istar.Task",
-          "x": 1469,
-          "y": 829,
+          "x": 1506,
+          "y": 666,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-sys-fornecer-chat",
-          "text": "Prover canal de bate-papo e descoberta de colegas",
+          "id": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+          "text": "Cadastrar diretrizes e limites de membros",
           "type": "istar.Task",
-          "x": 1679,
-          "y": 829,
+          "x": 1616,
+          "y": 823,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "task-sys-dashboard-tutores",
-          "text": "Disponibilizar painel de gestão para Professores e Monitores",
+          "id": "c8381b71-4634-4266-a7ba-2af4855bef49",
+          "text": "Validar tamanho máximo/mínimo dos grupos",
           "type": "istar.Task",
-          "x": 1579,
-          "y": 919,
+          "x": 1424,
+          "y": 823,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "res-sys-painel-dados",
-          "text": "Painel de controle com dados em tempo real",
+          "id": "7f3368d4-3762-4baa-ab97-c67ada7fa421",
+          "text": "Prover mecanismo de formação de grupos",
+          "type": "istar.Task",
+          "x": 1259,
+          "y": 918,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "985fbee6-97a6-4308-9272-1360ce100f41",
+          "text": "Criar novo grupo de trabalho",
+          "type": "istar.Task",
+          "x": 1252,
+          "y": 1072,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "717f636a-3c68-471d-bd11-cbf594a20055",
+          "text": "Processar solicitação de entrada no grupo",
+          "type": "istar.Task",
+          "x": 1095,
+          "y": 1050,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d90ba2ee-526e-4313-a55c-631696612b6f",
+          "text": "Exibir lista de vagas e grupos disponíveis",
+          "type": "istar.Task",
+          "x": 907,
+          "y": 1008,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+          "text": "Banco de dados de grupos e vagas",
           "type": "istar.Resource",
-          "x": 1479,
-          "y": 1213,
+          "x": 1002,
+          "y": 885,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "quality-sys-acuracia-match",
-          "text": "Alta precisão nas afinidades e complementaridade",
+          "id": "73e7b7b8-2d22-46af-a476-64d110168525",
+          "text": "Prover ambiente de comunicação e acompanhamento",
+          "type": "istar.Task",
+          "x": 1035,
+          "y": 666,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "07e76697-0d73-4e54-9b53-b95636885911",
+          "text": "Manter chat exclusivo por grupo",
+          "type": "istar.Task",
+          "x": 830,
+          "y": 720,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b0da73b7-17f2-4cfb-a436-006c3609edc4",
+          "text": "Disponibilizar dashboard de status da turma",
+          "type": "istar.Task",
+          "x": 943,
+          "y": 807,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63b47d71-62e8-4d15-bf09-85347eed110d",
+          "text": "Permitir moderação de mensagens",
+          "type": "istar.Task",
+          "x": 1210,
+          "y": 751,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+          "text": "Informações sobre grupos atualizadas em tempo real",
           "type": "istar.Quality",
-          "x": 1389,
+          "x": 1166,
+          "y": 1251,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a11746b4-3fb3-496d-9333-3daf4aeffe49",
+          "text": "Sem erros",
+          "type": "istar.Quality",
+          "x": 1545,
           "y": 919,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "quality-sys-usabilidade",
-          "text": "Facilidade e fluidez de navegação",
+          "id": "09bf0115-7993-4e2e-a1f2-606ea927acfe",
+          "text": "Privasidade dos alunos",
           "type": "istar.Quality",
-          "x": 1844,
-          "y": 736,
+          "x": 1156,
+          "y": 848,
           "customProperties": {
             "Description": ""
           }
         },
         {
-          "id": "quality-sys-consistencia-dados",
-          "text": "Consistência e integridade das alocações",
-          "type": "istar.Quality",
-          "x": 1689,
-          "y": 999,
+          "id": "9b878d3d-56ab-4009-af38-561fe51499f2",
+          "text": "Avaliação de integrantes de grupo",
+          "type": "istar.Task",
+          "x": 1412,
+          "y": 1097,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6945ea3a-0bca-4eb6-858c-ec8c180fffa0",
+          "text": "Permitir que gestor modifique grupos",
+          "type": "istar.Task",
+          "x": 1488,
+          "y": 1023,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "abb9a124-75ac-4aa6-ab08-2fd8fe0dcd5d",
+          "text": "Permitir avaliar pessoas com quem fez trabalho",
+          "type": "istar.Task",
+          "x": 1339,
+          "y": 1199,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "35964310-cf2f-4acb-a4e4-ea95b8f10cda",
+          "text": "Exibir nota de avaliação dos alunos",
+          "type": "istar.Task",
+          "x": 1505,
+          "y": 1198,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ae8c83df-07ea-4d3b-8ed0-939ae3b7de76",
+          "text": "Banco de dados de avaliações dos alunos",
+          "type": "istar.Resource",
+          "x": 1494,
+          "y": 1291,
           "customProperties": {
             "Description": ""
           }
@@ -334,513 +444,348 @@
   "orphans": [],
   "dependencies": [
     {
-      "id": "d1a30b61-719e-4c65-8010-f16f7b1796eb",
+      "id": "25d03505-9d8b-4aea-a5f9-f8a27766e1e0",
       "text": "Canal de comunicação do grupo",
       "type": "istar.Resource",
-      "x": 601,
-      "y": 539,
+      "x": 637,
+      "y": 568,
       "customProperties": {
-        "Description": "Ambiente para trocar ideia com a galera de matérias em comum"
+        "Description": ""
       },
-      "source": "task-student-interagir-pares",
-      "target": "task-sys-fornecer-chat"
+      "source": "300bf5e0-95ed-474c-8d4f-9e8273df0d73",
+      "target": "07e76697-0d73-4e54-9b53-b95636885911"
     },
     {
-      "id": "5b132cb3-25e3-4d6d-a337-1dcffd0c2309",
-      "text": "Visualizar vagas e grupos disponíveis",
-      "type": "istar.Goal",
-      "x": 591,
+      "id": "f51db82d-670a-4f35-aadf-e68edf09f5e0",
+      "text": "Tirar duvidas sobre projeto rapido",
+      "type": "istar.Quality",
+      "x": 394,
+      "y": 469,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "ce56c788-52db-4767-8dca-966c00504965",
+      "target": "855100c9-de44-4c54-8a43-13f37b404156"
+    },
+    {
+      "id": "0fcde4cf-7e4d-45b4-9412-9966b1e682f3",
+      "text": "Moderar chats",
+      "type": "istar.Task",
+      "x": 791,
+      "y": 404,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "88968c77-f635-46c8-b794-0332aac69e08",
+      "target": "63b47d71-62e8-4d15-bf09-85347eed110d"
+    },
+    {
+      "id": "132639ba-f5a8-4bfe-9447-2a9fa11799d2",
+      "text": "Criar projeto",
+      "type": "istar.Task",
+      "x": 1760,
+      "y": 463,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+      "target": "6df101ed-ce9d-4fbd-bad9-3da232a946e4"
+    },
+    {
+      "id": "8a286bd2-362e-43a1-912d-e9706d112790",
+      "text": "Sem falhas",
+      "type": "istar.Quality",
+      "x": 1483,
+      "y": 434,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "190861d0-1997-4ed3-b612-7ce0ef029771",
+      "text": "Regras do projeto",
+      "type": "istar.Resource",
+      "x": 1611,
       "y": 460,
       "customProperties": {
         "Description": ""
       },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "agent-sistema-matchmaking"
+      "source": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+      "target": "3a2482e1-2e63-4596-a784-13576c72d335"
     },
     {
-      "id": "4f1177ee-083f-4c4f-b226-a353b97cee87",
-      "text": "Informações sobre grupos atualizadas",
+      "id": "5a87c075-4eb8-44aa-bc4c-10af5876e631",
+      "text": "Avaliação dos alunos",
       "type": "istar.Quality",
-      "x": 479,
-      "y": 766,
+      "x": 709,
+      "y": 755,
       "customProperties": {
         "Description": ""
       },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "agent-sistema-matchmaking"
+      "source": "abb9a124-75ac-4aa6-ab08-2fd8fe0dcd5d",
+      "target": "05a32fa6-5d02-41a1-841e-307b6ecc973b"
     },
     {
-      "id": "5afc02bf-7b37-4dae-9f93-d33cd6daac7e",
-      "text": "Criar grupos",
-      "type": "istar.Task",
-      "x": 526,
-      "y": 691,
+      "id": "9485c49a-9047-4c34-b329-7bbe2f8b84f5",
+      "text": "Visualizar vagas e grupos disponíveis",
+      "type": "istar.Goal",
+      "x": 608,
+      "y": 1163,
       "customProperties": {
         "Description": ""
       },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "agent-sistema-matchmaking"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "d90ba2ee-526e-4313-a55c-631696612b6f"
     },
     {
-      "id": "5c84fe61-e34a-43ba-911e-60ce784bad8d",
+      "id": "e7c5ec61-f326-4eea-b189-a7ad444c6d22",
       "text": "Solicitar participação em grupo",
       "type": "istar.Task",
-      "x": 588,
-      "y": 613,
+      "x": 579,
+      "y": 1280,
       "customProperties": {
         "Description": ""
       },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "agent-sistema-matchmaking"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "717f636a-3c68-471d-bd11-cbf594a20055"
     },
     {
-      "id": "52fbd346-6983-431b-b5e5-8b266e3a9d05",
-      "text": "Criar e configurar regras do projeto",
+      "id": "c86aa005-b2ab-4c61-b0aa-98f835051428",
+      "text": "Criar um grupo",
       "type": "istar.Task",
-      "x": 1362,
-      "y": 334,
+      "x": 616,
+      "y": 1396,
       "customProperties": {
         "Description": ""
       },
-      "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
-      "target": "agent-sistema-matchmaking"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "985fbee6-97a6-4308-9272-1360ce100f41"
     },
     {
-      "id": "a62627ea-7c55-4aae-9765-5094ae32ba84",
-      "text": "Diretrizes e limites de membros",
+      "id": "184d154a-564b-4102-9181-d9ca91edacd4",
+      "text": "Formar um bom grupo",
+      "type": "istar.Quality",
+      "x": 574,
+      "y": 1527,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "35964310-cf2f-4acb-a4e4-ea95b8f10cda"
+    },
+    {
+      "id": "dac4fa08-c666-49db-9b50-614f6de9faf9",
+      "text": "Resolver conflito",
+      "type": "istar.Task",
+      "x": 180,
+      "y": 158,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "ce56c788-52db-4767-8dca-966c00504965",
+      "target": "c29004a2-7133-4cfd-b9e9-b116f25a807f"
+    },
+    {
+      "id": "eb1e5250-c236-4995-a3c1-cd57996d6e41",
+      "text": "Dashboard deacompanhamento dos grupos",
       "type": "istar.Resource",
-      "x": 1270,
-      "y": 243,
+      "x": 926,
+      "y": 383,
       "customProperties": {
         "Description": ""
       },
-      "source": "agent-sistema-matchmaking",
-      "target": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07"
+      "source": "6a4019ab-ec0d-43da-9b16-a6b4f33b8eb5",
+      "target": "b0da73b7-17f2-4cfb-a436-006c3609edc4"
     },
     {
-      "id": "32a0d38a-d9d4-427f-87fb-80a86d9dde52",
-      "text": "Gerenciar integrantes dos grupos",
+      "id": "d0620fa0-8618-494d-8043-29895509e678",
+      "text": "Gerenciar integrantesdos grupos",
       "type": "istar.Task",
-      "x": 1099,
-      "y": 142,
+      "x": 1152,
+      "y": 427,
       "customProperties": {
         "Description": ""
       },
-      "source": "role-tutor-academico",
-      "target": "agent-sistema-matchmaking"
-    },
-    {
-      "id": "97fa2c9f-1830-4a88-918c-1695eb233185",
-      "text": "Dashboard de acompanhamento dos grupos",
-      "type": "istar.Resource",
-      "x": 996,
-      "y": 211,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "role-tutor-academico",
-      "target": "agent-sistema-matchmaking"
-    },
-    {
-      "id": "5eb4d2d6-43a1-46a5-832c-6c75cbf3ede6",
-      "text": "Garantir que todos os alunos estejam em grupos",
-      "type": "istar.Goal",
-      "x": 913,
-      "y": 287,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "role-tutor-academico",
-      "target": "agent-sistema-matchmaking"
-    },
-    {
-      "id": "e09fcc2a-ada2-4b8f-85cd-4b2208d922da",
-      "text": "Moderar mensagens do chat",
-      "type": "istar.Task",
-      "x": 590,
-      "y": 310,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
-      "target": "agent-sistema-matchmaking"
-    },
-    {
-      "id": "074124a6-d009-46e1-ba04-1d6f47d8c9aa",
-      "text": "Tirar dúvidas e orientar integração rapido",
-      "type": "istar.Quality",
-      "x": 361,
-      "y": 386,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "2373ba5e-d970-4318-a6b3-f1c035c4b375"
-    },
-    {
-      "id": "096f0d81-64da-4aa8-9737-e8ffa4bbe847",
-      "text": "Mediar conflitos do grupo",
-      "type": "istar.Task",
-      "x": 140,
-      "y": 98,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "role-tutor-academico"
-    },
-    {
-      "id": "d756ea78-a927-47b3-b756-4f1a52fd45c7",
-      "text": "Status dos alunos sempre atualizado",
-      "type": "istar.Quality",
-      "x": 760,
-      "y": 254,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "role-tutor-academico",
-      "target": "agent-sistema-matchmaking"
-    },
-    {
-      "id": "86a411b5-6e2b-4c8d-be41-95a565582e27",
-      "text": "Sem falhas",
-      "type": "istar.Quality",
-      "x": 1503,
-      "y": 291,
-      "customProperties": {
-        "Description": ""
-      },
-      "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
-      "target": "agent-sistema-matchmaking"
+      "source": "ad5c27ef-f657-4509-962c-13a2a6fe347d",
+      "target": "6945ea3a-0bca-4eb6-858c-ec8c180fffa0"
     }
   ],
   "links": [
     {
-      "id": "ba5cfd27-37ec-4903-84fd-4f4144fc18e5",
+      "id": "018099bc-2b73-4ea8-8018-32cf81971925",
       "type": "istar.DependencyLink",
-      "source": "86a411b5-6e2b-4c8d-be41-95a565582e27",
-      "target": "agent-sistema-matchmaking"
+      "source": "d0620fa0-8618-494d-8043-29895509e678",
+      "target": "6945ea3a-0bca-4eb6-858c-ec8c180fffa0"
     },
     {
-      "id": "45f90bd5-b594-45f4-b29b-8295931949bb",
+      "id": "774eb58a-580c-4785-906d-9e8f11f13cc1",
       "type": "istar.DependencyLink",
-      "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
-      "target": "86a411b5-6e2b-4c8d-be41-95a565582e27"
+      "source": "ad5c27ef-f657-4509-962c-13a2a6fe347d",
+      "target": "d0620fa0-8618-494d-8043-29895509e678"
     },
     {
-      "id": "53ae66b2-aafc-4bb2-a702-4c274db9096e",
+      "id": "8aba822b-274d-4dca-92bd-835ce38577d2",
       "type": "istar.DependencyLink",
-      "source": "d756ea78-a927-47b3-b756-4f1a52fd45c7",
-      "target": "agent-sistema-matchmaking"
+      "source": "eb1e5250-c236-4995-a3c1-cd57996d6e41",
+      "target": "b0da73b7-17f2-4cfb-a436-006c3609edc4"
     },
     {
-      "id": "e041f956-57da-4e66-ba53-1fcd0ad83740",
+      "id": "d854d1f8-197e-47e4-aa62-ca1e571ca306",
       "type": "istar.DependencyLink",
-      "source": "role-tutor-academico",
-      "target": "d756ea78-a927-47b3-b756-4f1a52fd45c7"
+      "source": "6a4019ab-ec0d-43da-9b16-a6b4f33b8eb5",
+      "target": "eb1e5250-c236-4995-a3c1-cd57996d6e41"
     },
     {
-      "id": "bbdf9df6-d535-4c90-ab33-e0364ee69c3f",
+      "id": "75ecf2db-4ef3-4008-ab8d-91fe59c0ec48",
       "type": "istar.DependencyLink",
-      "source": "096f0d81-64da-4aa8-9737-e8ffa4bbe847",
-      "target": "role-tutor-academico"
+      "source": "dac4fa08-c666-49db-9b50-614f6de9faf9",
+      "target": "c29004a2-7133-4cfd-b9e9-b116f25a807f"
     },
     {
-      "id": "62c6e600-4ee9-42b5-a53f-8eddba5e8fd2",
+      "id": "5a05a2e4-1541-4a4b-9ca8-949dbfc9bc75",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "096f0d81-64da-4aa8-9737-e8ffa4bbe847"
+      "source": "ce56c788-52db-4767-8dca-966c00504965",
+      "target": "dac4fa08-c666-49db-9b50-614f6de9faf9"
     },
     {
-      "id": "48d389c1-b2e0-4520-ae25-65848a5626dc",
+      "id": "77472c4a-0b60-45d0-b5cc-7a863ededbfe",
       "type": "istar.DependencyLink",
-      "source": "074124a6-d009-46e1-ba04-1d6f47d8c9aa",
-      "target": "2373ba5e-d970-4318-a6b3-f1c035c4b375"
+      "source": "184d154a-564b-4102-9181-d9ca91edacd4",
+      "target": "35964310-cf2f-4acb-a4e4-ea95b8f10cda"
     },
     {
-      "id": "8f273ef9-82ae-48ee-ba17-5c8fa1ef6fb1",
+      "id": "f8d8f817-0586-4de6-a763-dfae95b69706",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "074124a6-d009-46e1-ba04-1d6f47d8c9aa"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "184d154a-564b-4102-9181-d9ca91edacd4"
     },
     {
-      "id": "9c9d3666-0c37-472b-a636-2a5849cf5252",
+      "id": "380394d1-9ec7-43a7-ba7e-272ad6e3a363",
       "type": "istar.DependencyLink",
-      "source": "e09fcc2a-ada2-4b8f-85cd-4b2208d922da",
-      "target": "agent-sistema-matchmaking"
+      "source": "c86aa005-b2ab-4c61-b0aa-98f835051428",
+      "target": "985fbee6-97a6-4308-9272-1360ce100f41"
     },
     {
-      "id": "17fdea00-04f3-4069-9599-9c8eeec3f4a7",
+      "id": "638572fc-8c51-4983-b508-f19e72112afa",
       "type": "istar.DependencyLink",
-      "source": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
-      "target": "e09fcc2a-ada2-4b8f-85cd-4b2208d922da"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "c86aa005-b2ab-4c61-b0aa-98f835051428"
     },
     {
-      "id": "2fe99967-7bb1-4798-9cb7-2cf5b8e58753",
+      "id": "81a0ae5c-b499-46ce-a7d6-e3f286ab11e9",
       "type": "istar.DependencyLink",
-      "source": "5eb4d2d6-43a1-46a5-832c-6c75cbf3ede6",
-      "target": "agent-sistema-matchmaking"
+      "source": "e7c5ec61-f326-4eea-b189-a7ad444c6d22",
+      "target": "717f636a-3c68-471d-bd11-cbf594a20055"
     },
     {
-      "id": "1cc5083a-e4a1-4666-89fd-af23ae4b4b96",
+      "id": "da3a25a4-8260-40a3-8291-6539238378f6",
       "type": "istar.DependencyLink",
-      "source": "role-tutor-academico",
-      "target": "5eb4d2d6-43a1-46a5-832c-6c75cbf3ede6"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "e7c5ec61-f326-4eea-b189-a7ad444c6d22"
     },
     {
-      "id": "ff2e2dac-f84a-4bf1-9d22-b8e0814142f8",
+      "id": "43744cd7-6a0a-40b6-a8a9-b53b86ff0c10",
       "type": "istar.DependencyLink",
-      "source": "97fa2c9f-1830-4a88-918c-1695eb233185",
-      "target": "agent-sistema-matchmaking"
+      "source": "9485c49a-9047-4c34-b329-7bbe2f8b84f5",
+      "target": "d90ba2ee-526e-4313-a55c-631696612b6f"
     },
     {
-      "id": "4373fc1e-f108-4ef8-84ad-b35fd4f4ce83",
+      "id": "272656e9-c807-4e06-b6ab-4ba12669ddaa",
       "type": "istar.DependencyLink",
-      "source": "role-tutor-academico",
-      "target": "97fa2c9f-1830-4a88-918c-1695eb233185"
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "9485c49a-9047-4c34-b329-7bbe2f8b84f5"
     },
     {
-      "id": "7a947186-2ea2-49d6-a818-abfeaaec806d",
+      "id": "a308fd91-7cd3-4f6f-8195-4c87383a2fb7",
       "type": "istar.DependencyLink",
-      "source": "32a0d38a-d9d4-427f-87fb-80a86d9dde52",
-      "target": "agent-sistema-matchmaking"
+      "source": "5a87c075-4eb8-44aa-bc4c-10af5876e631",
+      "target": "05a32fa6-5d02-41a1-841e-307b6ecc973b"
     },
     {
-      "id": "f6e0ad40-9461-4697-ad05-cc2f8d93338c",
+      "id": "707748d6-9ffc-4489-b47f-a2d9cf9dcab7",
       "type": "istar.DependencyLink",
-      "source": "role-tutor-academico",
-      "target": "32a0d38a-d9d4-427f-87fb-80a86d9dde52"
+      "source": "abb9a124-75ac-4aa6-ab08-2fd8fe0dcd5d",
+      "target": "5a87c075-4eb8-44aa-bc4c-10af5876e631"
     },
     {
-      "id": "22f5af3d-ab98-466b-87e4-86d36f186396",
+      "id": "7ba7fd0f-eecd-4851-9edd-8d92a33cf698",
       "type": "istar.DependencyLink",
-      "source": "a62627ea-7c55-4aae-9765-5094ae32ba84",
-      "target": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07"
+      "source": "190861d0-1997-4ed3-b612-7ce0ef029771",
+      "target": "3a2482e1-2e63-4596-a784-13576c72d335"
     },
     {
-      "id": "546c3786-42f3-48a5-8427-488a0d041efa",
+      "id": "32a4ba68-9626-4c8a-bf52-92ba2c971fa2",
       "type": "istar.DependencyLink",
-      "source": "agent-sistema-matchmaking",
-      "target": "a62627ea-7c55-4aae-9765-5094ae32ba84"
+      "source": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+      "target": "190861d0-1997-4ed3-b612-7ce0ef029771"
     },
     {
-      "id": "2caa4ff9-e0ce-47a3-80f0-c7c869c87d02",
+      "id": "90cfc862-96dd-47bd-ae6c-39122c3f6c9f",
       "type": "istar.DependencyLink",
-      "source": "52fbd346-6983-431b-b5e5-8b266e3a9d05",
-      "target": "agent-sistema-matchmaking"
+      "source": "8a286bd2-362e-43a1-912d-e9706d112790",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
     },
     {
-      "id": "7c584452-95a0-4c13-9257-e8961e4690e2",
+      "id": "c99f48e7-b13d-4299-a4c2-72589d3df172",
       "type": "istar.DependencyLink",
-      "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
-      "target": "52fbd346-6983-431b-b5e5-8b266e3a9d05"
+      "source": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+      "target": "8a286bd2-362e-43a1-912d-e9706d112790"
     },
     {
-      "id": "6c2d8283-8eab-4417-aa82-cbb2d9da8b46",
+      "id": "cd313e12-a784-4809-b959-8b6d877ad020",
       "type": "istar.DependencyLink",
-      "source": "5c84fe61-e34a-43ba-911e-60ce784bad8d",
-      "target": "agent-sistema-matchmaking"
+      "source": "132639ba-f5a8-4bfe-9447-2a9fa11799d2",
+      "target": "6df101ed-ce9d-4fbd-bad9-3da232a946e4"
     },
     {
-      "id": "a725ddef-2c58-455c-8983-4b5b817f7436",
+      "id": "4722c7b3-a353-412f-992b-37e631173f45",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "5c84fe61-e34a-43ba-911e-60ce784bad8d"
+      "source": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+      "target": "132639ba-f5a8-4bfe-9447-2a9fa11799d2"
     },
     {
-      "id": "d4d57032-5a43-445f-826b-7d606f645567",
+      "id": "ed304b97-7115-4257-93e3-614b42925c88",
       "type": "istar.DependencyLink",
-      "source": "5afc02bf-7b37-4dae-9f93-d33cd6daac7e",
-      "target": "agent-sistema-matchmaking"
+      "source": "0fcde4cf-7e4d-45b4-9412-9966b1e682f3",
+      "target": "63b47d71-62e8-4d15-bf09-85347eed110d"
     },
     {
-      "id": "5da06d05-9b1d-447b-bce2-de7dce2ff603",
+      "id": "745a2975-1382-4d2d-9368-5aff6ff2a49e",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "5afc02bf-7b37-4dae-9f93-d33cd6daac7e"
+      "source": "88968c77-f635-46c8-b794-0332aac69e08",
+      "target": "0fcde4cf-7e4d-45b4-9412-9966b1e682f3"
     },
     {
-      "id": "a3b36cf8-4348-4f83-8a15-e7f83fab2f1b",
+      "id": "e2c87635-0b24-4205-b0a4-b6b73da263e8",
       "type": "istar.DependencyLink",
-      "source": "4f1177ee-083f-4c4f-b226-a353b97cee87",
-      "target": "agent-sistema-matchmaking"
+      "source": "f51db82d-670a-4f35-aadf-e68edf09f5e0",
+      "target": "855100c9-de44-4c54-8a43-13f37b404156"
     },
     {
-      "id": "9f86313c-64e0-4015-aa4a-e5d508f06eea",
+      "id": "044b5ad5-ab36-4730-907b-2478b0554171",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "4f1177ee-083f-4c4f-b226-a353b97cee87"
+      "source": "ce56c788-52db-4767-8dca-966c00504965",
+      "target": "f51db82d-670a-4f35-aadf-e68edf09f5e0"
     },
     {
-      "id": "b2aba8fe-d431-495e-a7cf-bc963a5ef0f7",
+      "id": "6a6d2121-6e21-4eb8-9092-e574aec4af19",
       "type": "istar.DependencyLink",
-      "source": "5b132cb3-25e3-4d6d-a337-1dcffd0c2309",
-      "target": "agent-sistema-matchmaking"
+      "source": "25d03505-9d8b-4aea-a5f9-f8a27766e1e0",
+      "target": "07e76697-0d73-4e54-9b53-b95636885911"
     },
     {
-      "id": "854ee988-47a3-454b-8383-19bc9090e1b4",
+      "id": "c6336c3c-0af6-449e-96e5-ec49d12a07f6",
       "type": "istar.DependencyLink",
-      "source": "c9606d1e-2f30-40d1-81fd-4b0ba7b13272",
-      "target": "5b132cb3-25e3-4d6d-a337-1dcffd0c2309"
-    },
-    {
-      "id": "3406e862-4379-4f30-92ae-9a53293121c9",
-      "type": "istar.DependencyLink",
-      "source": "d1a30b61-719e-4c65-8010-f16f7b1796eb",
-      "target": "task-sys-fornecer-chat"
-    },
-    {
-      "id": "74037a7d-6dbf-41c4-8b92-fcaaec9c7a28",
-      "type": "istar.DependencyLink",
-      "source": "task-student-interagir-pares",
-      "target": "d1a30b61-719e-4c65-8010-f16f7b1796eb"
+      "source": "300bf5e0-95ed-474c-8d4f-9e8273df0d73",
+      "target": "25d03505-9d8b-4aea-a5f9-f8a27766e1e0"
     },
     {
       "id": "2d66d5ec-2cfc-4079-9c2b-748f356f68f4",
       "type": "istar.IsALink",
       "source": "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07",
       "target": "role-tutor-academico"
-    },
-    {
-      "id": "fe6cbc44-172c-4ad8-8606-8a362cdcd8a5",
-      "type": "istar.AndRefinementLink",
-      "source": "task-tutor-revisar-status",
-      "target": "goal-tutor-acompanhar"
-    },
-    {
-      "id": "8e931bde-38fb-46df-aa68-f93f2f887fe9",
-      "type": "istar.AndRefinementLink",
-      "source": "task-tutor-avaliar-ajustes",
-      "target": "goal-tutor-acompanhar"
-    },
-    {
-      "id": "37c8cc6d-e0f7-441b-8905-6a368c97583c",
-      "type": "istar.QualificationLink",
-      "source": "quality-tutor-transparencia",
-      "target": "goal-tutor-acompanhar"
-    },
-    {
-      "id": "ac5507c0-bc5f-4c25-b1e3-ea8eeb607016",
-      "type": "istar.AndRefinementLink",
-      "source": "task-monitor-tirar-duvidas",
-      "target": "794a6f47-127a-4e12-8fb2-b4718d2d259f"
-    },
-    {
-      "id": "797ea322-4b5b-45cb-ae90-af097b5eec5c",
-      "type": "istar.ContributionLink",
-      "source": "task-monitor-tirar-duvidas",
-      "target": "quality-monitor-acessibilidade",
-      "label": "make"
-    },
-    {
-      "id": "6cb774b1-c4ac-4867-81bf-518072144fa5",
-      "type": "istar.AndRefinementLink",
-      "source": "89c29168-e811-4222-8570-cd9c3fd216ca",
-      "target": "a1bbc1fe-0c63-4b12-8365-8d662065baa3"
-    },
-    {
-      "id": "bc032cc9-3184-41a7-9481-9e11520e1d74",
-      "type": "istar.ContributionLink",
-      "source": "89c29168-e811-4222-8570-cd9c3fd216ca",
-      "target": "561b7dac-5935-4ef8-9877-fe477d95045e",
-      "label": "make"
-    },
-    {
-      "id": "0a1cea96-a151-44e0-97ff-439866e0110c",
-      "type": "istar.ContributionLink",
-      "source": "89c29168-e811-4222-8570-cd9c3fd216ca",
-      "target": "d39c86e3-e2fa-4eb0-93a9-438071d6623f",
-      "label": "help"
-    },
-    {
-      "id": "b3d4429d-1b8e-4142-94b4-f1f0f5badb26",
-      "type": "istar.AndRefinementLink",
-      "source": "task-student-cadastrar-perfil",
-      "target": "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6"
-    },
-    {
-      "id": "54cf98c5-2a18-4c02-a675-15eab18d10fd",
-      "type": "istar.AndRefinementLink",
-      "source": "task-student-interagir-pares",
-      "target": "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6"
-    },
-    {
-      "id": "6591cd8d-f095-4c5a-8340-a4d7c51b7ff3",
-      "type": "istar.AndRefinementLink",
-      "source": "task-student-confirmar-grupo",
-      "target": "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6"
-    },
-    {
-      "id": "b5660919-3ec6-4098-a665-d933fdcc23c5",
-      "type": "istar.AndRefinementLink",
-      "source": "task-student-solicitar-ajuste",
-      "target": "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6"
-    },
-    {
-      "id": "28cbb254-6e16-4da7-b5a5-9989e38302d6",
-      "type": "istar.ContributionLink",
-      "source": "task-student-confirmar-grupo",
-      "target": "a4c76df2-e34c-4d4e-8226-cec39d0048e2",
-      "label": "make"
-    },
-    {
-      "id": "bb2eb483-faf1-4dbe-9aa7-827c72170dfe",
-      "type": "istar.ContributionLink",
-      "source": "task-student-solicitar-ajuste",
-      "target": "abdb46f6-21e9-4281-a25a-aef5000888a4",
-      "label": "make"
-    },
-    {
-      "id": "d16106ed-82f4-4ff6-be6a-336284147976",
-      "type": "istar.ContributionLink",
-      "source": "task-student-interagir-pares",
-      "target": "2a7bd0a2-90fa-4c69-9165-89d53659df83",
-      "label": "make"
-    },
-    {
-      "id": "e3065ff0-62da-491c-aae6-5fc58f9e7a5b",
-      "type": "istar.AndRefinementLink",
-      "source": "task-sys-processar-match",
-      "target": "goal-sys-orquestrar"
-    },
-    {
-      "id": "b321bfd5-3595-45d5-8d9b-a4f9a8da000d",
-      "type": "istar.AndRefinementLink",
-      "source": "task-sys-fornecer-chat",
-      "target": "goal-sys-orquestrar"
-    },
-    {
-      "id": "614d9212-8603-4761-9884-f816c03bd821",
-      "type": "istar.AndRefinementLink",
-      "source": "task-sys-dashboard-tutores",
-      "target": "goal-sys-orquestrar"
-    },
-    {
-      "id": "8737d33d-d230-481e-99f1-21fb80a4be34",
-      "type": "istar.NeededByLink",
-      "source": "res-sys-painel-dados",
-      "target": "task-sys-dashboard-tutores"
-    },
-    {
-      "id": "fa86f92f-8e85-4509-af62-ec87684542a8",
-      "type": "istar.ContributionLink",
-      "source": "task-sys-processar-match",
-      "target": "quality-sys-acuracia-match",
-      "label": "make"
-    },
-    {
-      "id": "c7f3f026-4f9a-4e74-8a71-33a150e504cd",
-      "type": "istar.ContributionLink",
-      "source": "task-sys-fornecer-chat",
-      "target": "quality-sys-usabilidade",
-      "label": "make"
-    },
-    {
-      "id": "0e973122-d236-4a81-a5f7-b2f8699b7be8",
-      "type": "istar.ContributionLink",
-      "source": "task-sys-dashboard-tutores",
-      "target": "quality-sys-consistencia-dados",
-      "label": "make"
     },
     {
       "id": "7fabb83f-a308-4706-92d1-e87d03914ecd",
@@ -853,199 +798,424 @@
       "type": "istar.ParticipatesInLink",
       "source": "2373ba5e-d970-4318-a6b3-f1c035c4b375",
       "target": "role-tutor-academico"
+    },
+    {
+      "id": "07f9deee-ff1f-41ac-8e97-5e00138af82b",
+      "type": "istar.AndRefinementLink",
+      "source": "c8381b71-4634-4266-a7ba-2af4855bef49",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "ff833b19-c7b3-44ba-9208-15103a92adf2",
+      "type": "istar.AndRefinementLink",
+      "source": "6df101ed-ce9d-4fbd-bad9-3da232a946e4",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "aba8d834-b548-4d1a-92d0-df37053f0655",
+      "type": "istar.AndRefinementLink",
+      "source": "7f3368d4-3762-4baa-ab97-c67ada7fa421",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "9aa61e94-b068-4e0d-93a2-1590bfeb82c2",
+      "type": "istar.AndRefinementLink",
+      "source": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "c54972b0-a177-4067-8e06-5449ccaa1d6a",
+      "type": "istar.AndRefinementLink",
+      "source": "985fbee6-97a6-4308-9272-1360ce100f41",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "5c427af0-28b5-4661-b4c7-a4a8d4f8e9e4",
+      "type": "istar.AndRefinementLink",
+      "source": "717f636a-3c68-471d-bd11-cbf594a20055",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "16e64fa5-84b4-4048-8fb9-569f9cb9adbb",
+      "type": "istar.AndRefinementLink",
+      "source": "d90ba2ee-526e-4313-a55c-631696612b6f",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "bc6b8701-8129-48a5-9c9f-87b934cc96ee",
+      "type": "istar.NeededByLink",
+      "source": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "76d12194-3ad9-42cc-a8f0-e9d1671f4a55",
+      "type": "istar.AndRefinementLink",
+      "source": "73e7b7b8-2d22-46af-a476-64d110168525",
+      "target": "0c51daa5-eb0f-40e3-8119-45762bd1cd1e"
+    },
+    {
+      "id": "a58398d5-9cc2-4813-9799-f6c16f674730",
+      "type": "istar.AndRefinementLink",
+      "source": "07e76697-0d73-4e54-9b53-b95636885911",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "81624fba-5f23-43a8-831f-da7c6a3a658b",
+      "type": "istar.AndRefinementLink",
+      "source": "b0da73b7-17f2-4cfb-a436-006c3609edc4",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "ee687626-18a4-4764-9a24-ce77e7482fd0",
+      "type": "istar.NeededByLink",
+      "source": "442cbf59-aa25-4bb6-9be0-c696a10266e3",
+      "target": "b0da73b7-17f2-4cfb-a436-006c3609edc4"
+    },
+    {
+      "id": "6d18e8ce-356b-441f-9610-0631f95e0db7",
+      "type": "istar.AndRefinementLink",
+      "source": "63b47d71-62e8-4d15-bf09-85347eed110d",
+      "target": "73e7b7b8-2d22-46af-a476-64d110168525"
+    },
+    {
+      "id": "03cd5e06-ed51-4850-8720-d026738d5263",
+      "type": "istar.ContributionLink",
+      "source": "985fbee6-97a6-4308-9272-1360ce100f41",
+      "target": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+      "label": "make"
+    },
+    {
+      "id": "644b3203-0edb-411b-b7f3-7404e35fdadf",
+      "type": "istar.ContributionLink",
+      "source": "717f636a-3c68-471d-bd11-cbf594a20055",
+      "target": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+      "label": "make"
+    },
+    {
+      "id": "9ebb6c48-aab6-445f-8a8d-bdf8e20f4b18",
+      "type": "istar.QualificationLink",
+      "source": "a11746b4-3fb3-496d-9333-3daf4aeffe49",
+      "target": "bcf5e463-c882-4a89-a6cc-dd6dffed9f16"
+    },
+    {
+      "id": "ccc2b96c-7ed1-4c22-b60a-52a91a747a30",
+      "type": "istar.ContributionLink",
+      "source": "63b47d71-62e8-4d15-bf09-85347eed110d",
+      "target": "09bf0115-7993-4e2e-a1f2-606ea927acfe",
+      "label": "hurt"
+    },
+    {
+      "id": "f516850a-6a48-4b6e-9792-ef06a5225b94",
+      "type": "istar.AndRefinementLink",
+      "source": "9b878d3d-56ab-4009-af38-561fe51499f2",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "49ddb8f6-8d84-4775-9ff1-898569c775c3",
+      "type": "istar.AndRefinementLink",
+      "source": "2f3ed992-7124-49f2-88e5-7b5f937daf6e",
+      "target": "05a32fa6-5d02-41a1-841e-307b6ecc973b"
+    },
+    {
+      "id": "884fbf4e-cd53-415f-b779-ada948b2eae2",
+      "type": "istar.AndRefinementLink",
+      "source": "509a3f76-4f5c-4a74-9a33-a73df5e59cd7",
+      "target": "05a32fa6-5d02-41a1-841e-307b6ecc973b"
+    },
+    {
+      "id": "3389ba99-6653-43cb-8a81-e1460dbdcd6d",
+      "type": "istar.ContributionLink",
+      "source": "300bf5e0-95ed-474c-8d4f-9e8273df0d73",
+      "target": "4c5a58a7-eb5d-4c3d-b4f8-eb7669eadc4c",
+      "label": "help"
+    },
+    {
+      "id": "2e9849c4-d413-4d38-ae7a-ab54289d4477",
+      "type": "istar.AndRefinementLink",
+      "source": "300bf5e0-95ed-474c-8d4f-9e8273df0d73",
+      "target": "2f3ed992-7124-49f2-88e5-7b5f937daf6e"
+    },
+    {
+      "id": "640046e0-0dac-456f-9b65-63f76fadb9c1",
+      "type": "istar.AndRefinementLink",
+      "source": "ce56c788-52db-4767-8dca-966c00504965",
+      "target": "2f3ed992-7124-49f2-88e5-7b5f937daf6e"
+    },
+    {
+      "id": "2e5b9345-8d55-4aeb-8159-d1fb9935aaa6",
+      "type": "istar.AndRefinementLink",
+      "source": "855100c9-de44-4c54-8a43-13f37b404156",
+      "target": "ee6f46e4-af1f-4979-b7f5-509cf98c2bd4"
+    },
+    {
+      "id": "cbe4057c-eeda-48e1-b5db-dd878af7f5b3",
+      "type": "istar.AndRefinementLink",
+      "source": "88968c77-f635-46c8-b794-0332aac69e08",
+      "target": "ee6f46e4-af1f-4979-b7f5-509cf98c2bd4"
+    },
+    {
+      "id": "b0b6a772-c8f1-4492-817d-ce5d4252c642",
+      "type": "istar.NeededByLink",
+      "source": "3a2482e1-2e63-4596-a784-13576c72d335",
+      "target": "e83398f8-d9ce-42f1-9233-3ed79cd0627b"
+    },
+    {
+      "id": "30a5e851-717c-4b23-906f-a1247a4144ae",
+      "type": "istar.AndRefinementLink",
+      "source": "e83398f8-d9ce-42f1-9233-3ed79cd0627b",
+      "target": "3b503e83-c48d-43f0-b322-e78003a31a98"
+    },
+    {
+      "id": "fe212c16-3403-4283-9baf-a524c8e9fda0",
+      "type": "istar.AndRefinementLink",
+      "source": "cb8c1c81-5d1b-4f18-97fe-408a9cd950f6",
+      "target": "3b503e83-c48d-43f0-b322-e78003a31a98"
+    },
+    {
+      "id": "a61462ac-525f-45cc-853b-497ee3ca72db",
+      "type": "istar.AndRefinementLink",
+      "source": "c29004a2-7133-4cfd-b9e9-b116f25a807f",
+      "target": "3ee40e6a-76dc-4bc0-be72-22e9c7a5a4d6"
+    },
+    {
+      "id": "6d5a470d-c962-41c4-bbb4-d45a4ec505dd",
+      "type": "istar.AndRefinementLink",
+      "source": "ad5c27ef-f657-4509-962c-13a2a6fe347d",
+      "target": "3ee40e6a-76dc-4bc0-be72-22e9c7a5a4d6"
+    },
+    {
+      "id": "3a012037-653e-4bb4-b550-63d3b64c9525",
+      "type": "istar.AndRefinementLink",
+      "source": "6a4019ab-ec0d-43da-9b16-a6b4f33b8eb5",
+      "target": "3ee40e6a-76dc-4bc0-be72-22e9c7a5a4d6"
+    },
+    {
+      "id": "642d200f-7955-4bb4-85c7-fa57d8fb2c2e",
+      "type": "istar.QualificationLink",
+      "source": "49a8e5c4-382e-4e32-86f2-c4f8e16370a5",
+      "target": "d90ba2ee-526e-4313-a55c-631696612b6f"
+    },
+    {
+      "id": "501598f4-9c6d-4728-8801-f2127cfb9885",
+      "type": "istar.AndRefinementLink",
+      "source": "6945ea3a-0bca-4eb6-858c-ec8c180fffa0",
+      "target": "7f3368d4-3762-4baa-ab97-c67ada7fa421"
+    },
+    {
+      "id": "20f70d0a-7628-4d4e-8f51-fe5fd985ebe9",
+      "type": "istar.AndRefinementLink",
+      "source": "abb9a124-75ac-4aa6-ab08-2fd8fe0dcd5d",
+      "target": "9b878d3d-56ab-4009-af38-561fe51499f2"
+    },
+    {
+      "id": "b28923cd-bf02-42c0-a12a-97679655cabf",
+      "type": "istar.AndRefinementLink",
+      "source": "35964310-cf2f-4acb-a4e4-ea95b8f10cda",
+      "target": "9b878d3d-56ab-4009-af38-561fe51499f2"
+    },
+    {
+      "id": "31a45cc9-d44a-4552-89fb-f8d6b7a5f5ca",
+      "type": "istar.NeededByLink",
+      "source": "ae8c83df-07ea-4d3b-8ed0-939ae3b7de76",
+      "target": "35964310-cf2f-4acb-a4e4-ea95b8f10cda"
     }
   ],
   "display": {
-    "goal-tutor-acompanhar": {
-      "width": 150,
-      "height": 55
+    "6a4019ab-ec0d-43da-9b16-a6b4f33b8eb5": {
+      "width": 121.671875,
+      "height": 51.890625
     },
-    "task-tutor-avaliar-ajustes": {
-      "width": 150,
-      "height": 55
+    "3ee40e6a-76dc-4bc0-be72-22e9c7a5a4d6": {
+      "width": 170.171875,
+      "height": 66.890625
     },
-    "quality-tutor-transparencia": {
-      "width": 140
-    },
-    "task-tutor-revisar-status": {
-      "width": 150,
-      "height": 55
-    },
-    "794a6f47-127a-4e12-8fb2-b4718d2d259f": {
-      "width": 160,
-      "height": 60
-    },
-    "task-monitor-tirar-duvidas": {
-      "width": 150,
-      "height": 55
-    },
-    "quality-monitor-acessibilidade": {
-      "width": 120
-    },
-    "a1bbc1fe-0c63-4b12-8365-8d662065baa3": {
-      "width": 170,
-      "height": 65
-    },
-    "89c29168-e811-4222-8570-cd9c3fd216ca": {
-      "width": 160,
-      "height": 60
-    },
-    "d39c86e3-e2fa-4eb0-93a9-438071d6623f": {
-      "width": 130
-    },
-    "561b7dac-5935-4ef8-9877-fe477d95045e": {
-      "width": 140,
-      "height": 60
-    },
-    "b3e96fba-3ad2-4776-ab17-36e5a9ab40c6": {
-      "width": 150,
-      "height": 55
-    },
-    "task-student-cadastrar-perfil": {
-      "width": 160,
-      "height": 65
-    },
-    "task-student-interagir-pares": {
-      "width": 150,
-      "height": 60
-    },
-    "task-student-confirmar-grupo": {
-      "width": 150,
-      "height": 55
-    },
-    "task-student-solicitar-ajuste": {
-      "width": 150,
-      "height": 55
-    },
-    "a4c76df2-e34c-4d4e-8226-cec39d0048e2": {
-      "width": 110,
-      "height": 50
-    },
-    "abdb46f6-21e9-4281-a25a-aef5000888a4": {
-      "width": 140,
-      "height": 65
-    },
-    "2a7bd0a2-90fa-4c69-9165-89d53659df83": {
-      "width": 130,
-      "height": 50
-    },
-    "goal-sys-orquestrar": {
-      "width": 170,
-      "height": 60
-    },
-    "task-sys-processar-match": {
-      "width": 160,
-      "height": 60
-    },
-    "task-sys-fornecer-chat": {
-      "width": 150,
-      "height": 55
-    },
-    "task-sys-dashboard-tutores": {
-      "width": 160,
-      "height": 60
-    },
-    "res-sys-painel-dados": {
-      "width": 140,
-      "height": 55
-    },
-    "quality-sys-acuracia-match": {
-      "width": 140,
-      "height": 60
-    },
-    "quality-sys-usabilidade": {
-      "width": 120,
-      "height": 50
-    },
-    "quality-sys-consistencia-dados": {
-      "width": 130
-    },
-    "d1a30b61-719e-4c65-8010-f16f7b1796eb": {
-      "width": 152.03125,
-      "height": 66.9453125
-    },
-    "5b132cb3-25e3-4d6d-a337-1dcffd0c2309": {
-      "width": 165.671875,
-      "height": 67.9453125
-    },
-    "4f1177ee-083f-4c4f-b226-a353b97cee87": {
-      "width": 140.71368408203125,
-      "height": 70.95263671875
-    },
-    "5afc02bf-7b37-4dae-9f93-d33cd6daac7e": {
-      "width": 172.5625,
-      "height": 63.46875
-    },
-    "5c84fe61-e34a-43ba-911e-60ce784bad8d": {
-      "width": 177.671875,
-      "height": 62.015625
-    },
-    "52fbd346-6983-431b-b5e5-8b266e3a9d05": {
-      "width": 145.171875,
+    "ad5c27ef-f657-4509-962c-13a2a6fe347d": {
+      "width": 136.171875,
       "height": 65.890625
     },
-    "a62627ea-7c55-4aae-9765-5094ae32ba84": {
-      "width": 117.671875,
-      "height": 74.890625
+    "c29004a2-7133-4cfd-b9e9-b116f25a807f": {
+      "width": 130.671875,
+      "height": 67.890625
     },
-    "32a0d38a-d9d4-427f-87fb-80a86d9dde52": {
-      "width": 155.671875,
+    "ee6f46e4-af1f-4979-b7f5-509cf98c2bd4": {
+      "width": 136.171875,
+      "height": 45.890625
+    },
+    "88968c77-f635-46c8-b794-0332aac69e08": {
+      "width": 133.171875,
+      "height": 46.390625
+    },
+    "3b503e83-c48d-43f0-b322-e78003a31a98": {
+      "width": 152.171875,
+      "height": 59.9609375
+    },
+    "3a2482e1-2e63-4596-a784-13576c72d335": {
+      "width": 124.171875,
+      "height": 50.890625
+    },
+    "e83398f8-d9ce-42f1-9233-3ed79cd0627b": {
+      "width": 115.171875,
+      "height": 56.890625
+    },
+    "05a32fa6-5d02-41a1-841e-307b6ecc973b": {
+      "width": 157.671875,
       "height": 54.890625
     },
-    "97fa2c9f-1830-4a88-918c-1695eb233185": {
-      "width": 156.671875,
-      "height": 61.890625
-    },
-    "5eb4d2d6-43a1-46a5-832c-6c75cbf3ede6": {
-      "width": 153.671875,
+    "509a3f76-4f5c-4a74-9a33-a73df5e59cd7": {
+      "width": 108.671875,
       "height": 57.890625
     },
-    "e09fcc2a-ada2-4b8f-85cd-4b2208d922da": {
-      "width": 118.671875,
+    "2f3ed992-7124-49f2-88e5-7b5f937daf6e": {
+      "width": 136.671875,
       "height": 53.890625
     },
-    "074124a6-d009-46e1-ba04-1d6f47d8c9aa": {
-      "width": 154.671875,
-      "height": 58.890625
+    "4c5a58a7-eb5d-4c3d-b4f8-eb7669eadc4c": {
+      "width": 97.201171875,
+      "height": 62.397216796875
     },
-    "096f0d81-64da-4aa8-9737-e8ffa4bbe847": {
-      "width": 130.671875,
+    "300bf5e0-95ed-474c-8d4f-9e8273df0d73": {
+      "width": 129.671875,
+      "height": 62.390625
+    },
+    "ce56c788-52db-4767-8dca-966c00504965": {
+      "width": 143.671875,
+      "height": 57.390625
+    },
+    "0c51daa5-eb0f-40e3-8119-45762bd1cd1e": {
+      "width": 170.671875,
+      "height": 73.890625
+    },
+    "bcf5e463-c882-4a89-a6cc-dd6dffed9f16": {
+      "width": 134.671875,
+      "height": 71.890625
+    },
+    "6df101ed-ce9d-4fbd-bad9-3da232a946e4": {
+      "width": 166.671875,
+      "height": 71.890625
+    },
+    "c8381b71-4634-4266-a7ba-2af4855bef49": {
+      "width": 135.671875,
+      "height": 66.890625
+    },
+    "7f3368d4-3762-4baa-ab97-c67ada7fa421": {
+      "width": 161.671875,
+      "height": 64.890625
+    },
+    "985fbee6-97a6-4308-9272-1360ce100f41": {
+      "width": 134.671875,
       "height": 47.890625
     },
-    "d756ea78-a927-47b3-b756-4f1a52fd45c7": {
-      "width": 127.71038818359375,
-      "height": 85.89930725097656
+    "717f636a-3c68-471d-bd11-cbf594a20055": {
+      "width": 131.671875,
+      "height": 58.390625
     },
-    "0a1cea96-a151-44e0-97ff-439866e0110c": {
-      "vertices": [
-        {
-          "x": 1579,
-          "y": 259
-        }
-      ]
+    "d90ba2ee-526e-4313-a55c-631696612b6f": {
+      "width": 141.671875,
+      "height": 58.890625
     },
-    "role-tutor-academico": {
-      "collapsed": true
+    "442cbf59-aa25-4bb6-9be0-c696a10266e3": {
+      "width": 123.671875,
+      "height": 58.890625
     },
-    "2373ba5e-d970-4318-a6b3-f1c035c4b375": {
-      "collapsed": true
+    "73e7b7b8-2d22-46af-a476-64d110168525": {
+      "width": 154.671875,
+      "height": 66.890625
     },
-    "a24fa3bd-64e0-4043-bcc7-e267ff1d8f07": {
-      "collapsed": true
+    "07e76697-0d73-4e54-9b53-b95636885911": {
+      "width": 132.171875,
+      "height": 52.890625
     },
-    "c9606d1e-2f30-40d1-81fd-4b0ba7b13272": {
-      "collapsed": true
+    "b0da73b7-17f2-4cfb-a436-006c3609edc4": {
+      "width": 145.171875,
+      "height": 59.890625
     },
-    "agent-sistema-matchmaking": {
-      "collapsed": true
+    "63b47d71-62e8-4d15-bf09-85347eed110d": {
+      "width": 141.671875,
+      "height": 58.890625
+    },
+    "49a8e5c4-382e-4e32-86f2-c4f8e16370a5": {
+      "width": 145.71575927734375,
+      "height": 73.8980712890625
+    },
+    "a11746b4-3fb3-496d-9333-3daf4aeffe49": {
+      "width": 117.70703125,
+      "height": 78.39874267578125
+    },
+    "9b878d3d-56ab-4009-af38-561fe51499f2": {
+      "width": 128.671875,
+      "height": 55.890625
+    },
+    "6945ea3a-0bca-4eb6-858c-ec8c180fffa0": {
+      "width": 149.671875,
+      "height": 50.890625
+    },
+    "abb9a124-75ac-4aa6-ab08-2fd8fe0dcd5d": {
+      "width": 120.171875,
+      "height": 52.890625
+    },
+    "35964310-cf2f-4acb-a4e4-ea95b8f10cda": {
+      "width": 143.171875,
+      "height": 56.890625
+    },
+    "ae8c83df-07ea-4d3b-8ed0-939ae3b7de76": {
+      "width": 170.171875,
+      "height": 53.390625
+    },
+    "25d03505-9d8b-4aea-a5f9-f8a27766e1e0": {
+      "width": 123.671875,
+      "height": 64.390625
+    },
+    "f51db82d-670a-4f35-aadf-e68edf09f5e0": {
+      "width": 129.21112060546875,
+      "height": 60.896942138671875
+    },
+    "0fcde4cf-7e4d-45b4-9412-9966b1e682f3": {
+      "width": 117.171875,
+      "height": 56.390625
+    },
+    "132639ba-f5a8-4bfe-9447-2a9fa11799d2": {
+      "width": 133.171875,
+      "height": 54.890625
+    },
+    "190861d0-1997-4ed3-b612-7ce0ef029771": {
+      "width": 112.171875,
+      "height": 41.890625
+    },
+    "9485c49a-9047-4c34-b329-7bbe2f8b84f5": {
+      "width": 141.171875,
+      "height": 51.390625
+    },
+    "e7c5ec61-f326-4eea-b189-a7ad444c6d22": {
+      "width": 149.171875,
+      "height": 58.390625
+    },
+    "c86aa005-b2ab-4c61-b0aa-98f835051428": {
+      "width": 126.171875,
+      "height": 47.390625
+    },
+    "184d154a-564b-4102-9181-d9ca91edacd4": {
+      "width": 157.21896362304688,
+      "height": 76.3983154296875
+    },
+    "dac4fa08-c666-49db-9b50-614f6de9faf9": {
+      "width": 109.671875,
+      "height": 47.890625
+    },
+    "eb1e5250-c236-4995-a3c1-cd57996d6e41": {
+      "width": 147.671875,
+      "height": 71.890625
+    },
+    "d0620fa0-8618-494d-8043-29895509e678": {
+      "width": 134.671875,
+      "height": 65.890625
     }
   },
   "tool": "pistar.2.1.0",
   "istar": "2.0",
-  "saveDate": "Wed, 30 Sep 2026 13:59:23 GMT",
+  "saveDate": "Wed, 30 Sep 2026 17:04:18 GMT",
   "diagram": {
-    "width": 1600,
-    "height": 1467,
+    "width": 2137,
+    "height": 1700,
     "customProperties": {
       "Description": "Modelo TO-BE com fluxo de ajuste de integrantes delegado ao Tutor Acadêmico"
     }
